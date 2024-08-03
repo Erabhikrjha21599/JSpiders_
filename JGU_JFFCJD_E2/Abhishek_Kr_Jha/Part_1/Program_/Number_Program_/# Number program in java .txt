@@ -1,0 +1,25 @@
+# Number program in java 
+
+> Find the digit.
+
+> Find the sun of digit.
+> Find the sum of squar of digit.
+> Find the sum of cube of digit. 
+
+> Find the product of digit. 
+> Find the product of squar of digit.
+> Find the product of cube of digit.
+
+> Find the factors of number.
+> Find the factorials of number.
+
+> Reverse a number program in java.
+> Palindrome program in java.
+> Armstrong program in java.
+> Strong number program in java.
+> Spy number program in java.
+> Special number program in java.
+> Duck number program in java.
+> Niven or Harshad number program in java.
+
+

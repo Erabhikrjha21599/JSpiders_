@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package hierarchicalInheritance;
+
+/**
+ * 
+ */
+public class Banana {
+	
+	int b_price1 = 50;
+	static int b_price2 = 60;
+	
+	public static void bmethod1() {
+		System.out.println("static method1");
+		
+	}
+	
+	public void bmethod2() {
+		System.out.println("non-static method2");
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Banana b = new Banana();
+		
+		System.out.println(b.b_price1);
+//		System.out.println(b.b_price2);
+		System.out.println(Banana.b_price2);
+		
+//		b.method1();
+		Banana.bmethod1();
+		
+		b.bmethod2();
+
+	}
+
+}

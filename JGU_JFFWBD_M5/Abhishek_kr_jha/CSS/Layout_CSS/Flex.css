@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+
+    
+
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid;
+    font-size: xx-large;
+    /* background-color: rebeccapurple; */
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+div:hover{
+    /* color: brown; */
+    background-color: red;
+}

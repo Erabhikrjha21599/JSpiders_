@@ -1,0 +1,18 @@
+/* Pseudo class selector
+A CSS pdeudo class is a keyword added to selector that specify a special state of the selected element.
+d  */
+body {
+    background-color: powderblue;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color: orange;
+}

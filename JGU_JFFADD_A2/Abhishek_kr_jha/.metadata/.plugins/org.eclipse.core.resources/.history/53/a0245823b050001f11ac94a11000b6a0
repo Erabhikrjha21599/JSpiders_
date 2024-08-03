@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package fileRead;
+
+import java.io.File;
+
+/**
+ * 
+ */
+public class FileRead_2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String spath_1 = "Folder_1/File_1.txt";
+		File f2 = new File(spath_1); 
+		
+	
+
+	}
+
+}

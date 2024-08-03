@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    margin: 100px auto;
+    padding: 40px 80px 80px 90px;
+    position: static;
+}
+
+.boll{
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(to right bottom, red, green,blue);
+    border-radius: 50%;
+    /* transform: rotate(720deg);
+    transition: transform 10s 0s linear; */
+    animation-name: boll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(100, 190, 251);
+    border-radius: 5%;
+}
+
+/* @keyframes boll{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: 720deg;
+    }
+} */
+
+@keyframes boll{
+    0%{
+        top: 0px;
+        left: -10px;
+        transform: rotate(0deg);
+    }
+    25%{
+        top: 0px;
+        left: 300px;
+        transform: rotate(120deg);
+    }
+    50%{
+        left: 300px;
+        top: 370px;
+        transform: rotate(200deg);
+    }
+    75%{
+        left: -70px;
+        top: 370px;
+        transform: rotate(300deg);
+    }
+    100%{
+        left: -70px;
+        top: 0px;
+        transform: rotate(400deg);
+    }
+}

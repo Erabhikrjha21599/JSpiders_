@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun and Moving Clouds</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* background: linear-gradient(to bottom, #87CEEB, #87CEFA); */
+            background-color: skyblue;
+        }
+        .sun {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            border-radius: 50%;
+            box-shadow: 0 0 50px rgba(255, 223, 0, 0.7);
+        }
+        .cloud {
+            position: absolute;
+            top: 100px;
+            left: -200px;
+            width: 200px;
+            height: 60px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            animation: moveClouds 15s linear infinite;
+        }
+        .cloud::before, .cloud::after {
+            content: '';
+            position: absolute;
+            background: #FFFFFF;
+        }
+        .cloud::before {
+            width: 150px;
+            height: 80px;
+            top: -40px;
+            left: 20px;
+            border-radius: 50%;
+        }
+        .cloud::after {
+            width: 100px;
+            height: 100px;
+            top: -50px;
+            right: 30px;
+            border-radius: 50%;
+        }
+        @keyframes moveClouds {
+            0% { left: -200px; }
+            100% { left: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+    <div class="cloud"></div>
+    <div class="cloud" style="top: 200px; animation-duration: 20s;"></div>
+    <div class="cloud" style="top: 300px; animation-duration: 25s;"></div>
+</body>
+</html>

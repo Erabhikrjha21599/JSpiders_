@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package upCasting;
+
+/**
+ * 
+ */
+public class CauliFlower extends Vegetable {
+	
+	int cf_price = 50;
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

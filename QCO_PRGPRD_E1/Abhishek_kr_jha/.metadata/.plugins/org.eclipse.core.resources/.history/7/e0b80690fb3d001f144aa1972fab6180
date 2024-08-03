@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package arrayProgram;
+
+/**
+ * WAJP TO FIND THE FREQUENCY OF EACH ELEMENT IN THE GIVEN INTEGER ARRAY
+ */
+public class ArrayPro5 {
+	
+	// create a method for match the frequency 
+	public static void countFrequency() {
+		int[] array = {1,2,3,4,5,2,4};
+//		int element = array[0];
+		int visited = -1;
+		for(int i = 1; i < array.length; i++) {
+			int count = 1;
+			if (array[i] != visited) {
+				for(int j = i + 1; j < array.length; j++) {
+					if (array[i] == array[j]) {
+						count++;
+						array[j] = visited;
+					}
+				}
+				
+			}
+		}
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		countFrequency();
+
+	}
+
+}

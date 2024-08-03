@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package downCasting;
+
+/**
+ * 
+ */
+public class Apple extends Fruit {
+	int ap_price = 30;
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		 downCasting means storing the parent reference into child reference variable
+		
+//		create child class object 
+		Apple a = new Apple();
+		
+		System.out.println(a.ap_price);
+		System.out.println(a.ft_price);
+		
+//		create parent class object 
+		Fruit f = new Fruit();
+		
+//		System.out.println(a.ap_price);
+//		System.out.println(a.ft_price);
+		System.out.println(f.ft_price);
+//		System.out.println(f.ap_price);
+		
+//		storing parent reference into child reference variable 
+//		a  = (Apple) f;
+		
+		System.out.println(a.ft_price);
+//		System.out.println(a.ap_price);
+
+	}
+
+}

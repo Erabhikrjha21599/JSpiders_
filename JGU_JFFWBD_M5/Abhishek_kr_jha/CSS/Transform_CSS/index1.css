@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i{
+    margin: 100px;
+    color: red;
+}
+
+i:hover{
+    transform: rotateZ(350deg);
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+section{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+section:hover{
+    width: 400px;
+    transition: all 4s 1s;
+}

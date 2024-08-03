@@ -1,0 +1,22 @@
+# Pattern program in JAVA.
+
+> Square pattern program in java.
+
+> Rhombus pattern program in java.
+> Mirrored rhombus pattern program in java.
+
+> Triangle pattern program in java.
+> Mirrored triangle pattern program in java.
+> Inverted triangle pattern program in java.
+> Mirrored inverted triangle pattern program in java.
+
+> Pyramid pattern program in java.
+> Inverted pyramid pattern program in java.
+
+> Diamond pattern program in java. 
+> Half diamond pattern program in java.
+> Inverted half diamond pattern program in java.
+
+> Right arrow pattern program in java.
+> Left arrow pattern program in java.
+

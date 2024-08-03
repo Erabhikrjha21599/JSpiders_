@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package downCasting;
+
+/**
+ * 
+ */
+public class CauliFlower extends Vegetable {
+	int cf_price = 30;
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		 downCasting means storing the parent reference into child reference variable
+		
+//		create child class object 
+		CauliFlower c = new CauliFlower();
+		
+//		create parent class object 
+		Vegetable v = new Vegetable();
+		
+//		storing parent reference into child reference variable 
+		c = (CauliFlower) v;
+		
+//		System.out.println(v.cf_price);
+		System.out.println(v.vt_price);
+
+	}
+
+}

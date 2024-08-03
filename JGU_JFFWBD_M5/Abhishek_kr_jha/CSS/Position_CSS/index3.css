@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+
+.Box1{
+    background-color: red;
+    position: relative;
+    left: 500px;
+    top: 250px;
+    z-index: 1000;
+
+}
+
+.Box2{
+    background-color: blue;
+    position: relative;
+    left: 500px;
+    top: 150px;
+    z-index: 200;
+
+}
+
+.Box3{
+    background-color: black;
+    position: relative;
+    left: 500px;
+    top: 50px;
+
+}
+
+.Box4{
+    background-color: green;
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+
+}
+
+.Box5{
+    background-color: brown;
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+    z-index: 100;
+
+} 

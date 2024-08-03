@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package downCasting;
+
+/**
+ * 
+ */
+public class Banana extends Fruit {
+
+	int bn_price = 56;
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Banana b = new Banana();
+		
+		System.out.println(b.bn_price);
+		System.out.println(b.ft_price);
+		
+
+	}
+
+}

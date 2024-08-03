@@ -1,0 +1,25 @@
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 50px;
+    
+}
+
+p::before{
+    content: "🚉";
+}
+
+p::after{
+    content: "👍";
+}
+
+p::selection{
+    background-color: brown;
+}
+
+/* p::marker{
+    content: "+";
+} */

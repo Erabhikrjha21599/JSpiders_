@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    text-shadow: 10px 30px 5px #d31313;
+    text-transform: uppercase;
+    color: #1a1ae9c7;
+    text-decoration-line: underline;
+    text-decoration-style:  wavy;
+    text-decoration-thickness: 10px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+p{
+    text-indent: 200px;
+    /* text-align-last: ; */
+}

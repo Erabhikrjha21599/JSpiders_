@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package downCasting;
+
+/**
+ * 
+ */
+public class Banana extends Fruit {
+
+	int bn_price = 56;
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Banana b = new Banana();
+		
+//		System.out.println(b.bn_price);
+//		System.out.println(b.ft_price);
+		
+		Fruit f = new Banana(); // up casting 
+		
+		if(f instanceof Banana) {
+			Banana b = (Banana) f;
+			
+		}else if(f instanceof Apple){
+			Apple a = (Apple) f;
+			
+		}
+		
+
+	}
+
+}

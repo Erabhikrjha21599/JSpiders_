@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package downCasting;
+
+/**
+ * 
+ */
+public class Banana extends Fruit {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basicProgram.BasicePart2&apos; to &apos;BasicPart2&apos;&#x0D;&#x0A;- Original project: &apos;Program_Tracings&apos;&#x0D;&#x0A;- Original element: &apos;basicProgram.BasicePart2&apos;&#x0D;&#x0A;- Renamed element: &apos;basicProgram.BasicPart2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BasicePart2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;basicProgram{BasicePart2.java[BasicePart2" matchStrategy="1" name="BasicPart2" qualified="false" references="true" similarDeclarations="false" stamp="1712685818451" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,42 @@
+body {
+    background-color:powderblue;
+}
+
+/* combinator selector 
+combinator selector is used to target elements based on the relation between the elements.
+
+Descendent selector (sapce)
+child selector (>)
+
+ */
+
+ /* descendent selector */
+/* section article h1 {
+    color: red;
+}
+
+section main h2 {
+    color: blue;
+} */
+
+/* child selector */
+/* article > h1 {
+    color: red;
+}
+
+main > h2 {
+    color: blue;
+} */
+
+/* adjacent sibling selector(+) */
+
+/* div + p {
+    color: red;
+} */
+
+/* general sibling selector */
+div ~ p {
+    color: red;
+}
+
+
